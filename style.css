@@ -1,0 +1,109 @@
+:root{
+--White: hsl(0, 0%, 100%);
+--Light_Grey: hsl(217, 12%, 63%);
+--Medium_Grey: hsl(216, 12%, 54%);
+--Dark_Blue: hsl(213, 19%, 18%);
+--Very_Dark_Blue: hsl(216, 12%, 8%);
+--Orange: hsl(25, 97%, 53%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: 'Overpass', sans-serif;
+    background-color: var(--Very_Dark_Blue);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   height: 400px;
+   width: 350px;
+    background-color: var(--Dark_Blue);
+   padding: 30px;
+   border-radius: 25px;
+}
+.star{
+ position: relative;
+ bottom: 20px;
+    right: 120px;
+    background-color: var(--Very_Dark_Blue);
+    height: 35px;
+    width: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+  .main-heading{
+    color: var(--White);
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+   margin-right: 117px;
+  }
+  .main-paragraph{
+    color: var(--Light_Grey);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+    
+  }
+  .btn{
+  font-size: 1rem;
+  font-weight: 400;
+  background-color: var(--Very_Dark_Blue);
+  margin: 10px 5px; 
+  
+    height: 40px;
+    width: 40px;
+    color: var(--Light_Grey);
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  .btn:hover{
+    background-color: var(--Orange);
+    color: var(--Very_Dark_Blue);
+  }
+  .submit-button{
+    margin-top: 20px;
+    background-color: var(--Orange);
+    color: var(--White);
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    height: 40px;
+    width: 280px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    letter-spacing: 3px;
+  }
+  .submit-button:hover{
+    background-color: var(--White);
+    color: var(--Orange);
+  }
