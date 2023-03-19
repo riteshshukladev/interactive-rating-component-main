@@ -10,6 +10,7 @@
 .attribution {
   font-size: 11px;
   text-align: center;
+  color: white;
 }
 
 .attribution a {
@@ -38,7 +39,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-   height: 400px;
+   height: 350px;
    width: 350px;
     background-color: var(--Dark_Blue);
    padding: 30px;
@@ -48,9 +49,9 @@ body{
  position: relative;
  bottom: 20px;
     right: 120px;
-    background-color: var(--Very_Dark_Blue);
-    height: 35px;
-    width: 35px;
+    background-color:hsl(213, 19%, 25%);
+    height: 40px;
+    width: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -65,7 +66,7 @@ body{
   }
   .main-paragraph{
     color: var(--Light_Grey);
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: 400;
     margin-bottom: 20px;
     
@@ -73,7 +74,7 @@ body{
   .btn{
   font-size: 1rem;
   font-weight: 400;
-  background-color: var(--Very_Dark_Blue);
+  background-color: hsl(213, 19%, 25%);
   margin: 10px 5px; 
   
     height: 40px;
@@ -83,6 +84,7 @@ body{
     border: none;
     outline: none;
     cursor: pointer;
+    
   }
   .btn:hover{
     background-color: var(--Orange);
@@ -106,4 +108,45 @@ body{
   .submit-button:hover{
     background-color: var(--White);
     color: var(--Orange);
+  }
+
+  /* Thankyou box styling */
+
+  .thankyou-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   height: 350px;
+   width: 350px;
+    background-color: var(--Dark_Blue);
+   padding: 30px;
+   border-radius: 25px;
+  }
+  .image-thankyou{
+    
+    margin-bottom: 20px;
+  }
+  .rating-headline{
+    background-color: var(--Very_Dark_Blue);
+    font-size: 0.8rem;
+    padding: 7px 20px;
+    text-align: center;
+    border-radius: 50px;
+     font-weight: 400;
+      color: var(--Orange);
+    margin-bottom: 20px;
+  }
+  .thankyou-heading{
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--White);
+    margin-bottom: 10px;
+  }
+  .thankyou-paragraph{
+    color: var(--Medium_Grey);
+    font-size: 0.9rem;
+  }
+  .hidden{
+    display: none;
   }
