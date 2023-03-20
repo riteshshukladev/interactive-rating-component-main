@@ -90,6 +90,10 @@ body{
     background-color: var(--Orange);
     color: var(--Very_Dark_Blue);
   }
+  .btn:focus{
+    background-color: var(--Orange);
+    color: var(--Very_Dark_Blue);
+  }
   .submit-button{
     margin-top: 20px;
     background-color: var(--Orange);
